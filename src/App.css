@@ -1,0 +1,288 @@
+.App {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Navbar */
+
+.bar {
+  background-color: #0d0907;
+  color: white;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.logo-sec {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 50%;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10vw;
+}
+
+.logo-sec span {
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.verti-bar {
+  content: "";
+  background-color: #ffbf35;
+  width: 1px;
+  height: 60%;
+  margin: 0 2vw;
+}
+
+.bar button {
+  background-color: #ffbf35;
+  margin-right: 10vw;
+  border: none;
+  height: 6vh;
+  width: fit-content;
+  border-radius: 8px;
+  font-weight: 800;
+  padding: 0 1.5vh;
+}
+
+/* cover pic */
+
+.cover-sec {
+  width: 100vw;
+  height: 15vh;
+  background-color: bisque;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* profile section */
+
+.profile-sec {
+  padding: 0 5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.pro-up {
+  display: flex;
+}
+
+.pro-up img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin-left: 2vw;
+  margin-top: -25px;
+  border: 2px solid #707070;
+}
+
+.pro-up-text {
+  width: 150px;
+  margin-left: 0vw;
+  font-size: 11px;
+  margin: 5px 5vw;
+}
+
+.name-sec {
+  display: flex;
+  align-items: center;
+}
+
+.name-sec img {
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: none;
+}
+
+.follow-data {
+  display: flex;
+  text-align: center;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 15px 5px 0;
+  color: #999999;
+}
+
+.follow b {
+  border: 2px #999999 solid;
+  border-radius: 8px;
+  padding: 10%;
+  width: 100%;
+}
+
+.pro-down {
+  margin: 10px 0;
+}
+
+.pro-down span {
+  font-size: 12px;
+  color: gray;
+}
+
+.pro-down span1 {
+  font-size: x-small;
+  color: #15a3c7;
+}
+
+.icon-state {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+
+.icon-state i {
+  margin: 10px 5px;
+  width: auto;
+  height: auto;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.icon-state img {
+  width: 15px;
+  height: 15px;
+  margin: 10px 5px;
+  border-radius: 50%;
+}
+
+/* single button section */
+
+.btn1 {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-top: 1px solid rgb(188, 188, 188);
+  border-right: 1px solid rgb(188, 188, 188);
+}
+
+.sec-btn hr {
+  width: calc(100% - 100px);
+  background-color: rgb(188, 188, 188);
+  margin-top: -0.9px;
+  margin-left: 100px;
+}
+
+/* post section */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.post-sec {
+  margin: 0 10px;
+  /* background-color: #15a3c7; */
+}
+
+.post {
+  background-color: white;
+  margin-top: 10px;
+}
+
+.post p {
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+.post ul {
+  list-style: none;
+  font-size: 12px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.diva {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.62em;
+  font-weight: 500;
+  padding: 10px 0;
+  /* background-color: tomato; */
+}
+
+.title-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-box button {
+  border-radius: 50%;
+  width: 25px;
+  border: none;
+  background: transparent;
+}
+
+.title-box button i {
+  width: auto;
+  height: auto;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-sec {
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: 33% 33% 34%;
+    text-align: left;
+  }
+
+  .post-sec hr {
+    display: none;
+  }
+
+  .post {
+    padding: 15px;
+    font-size: 30px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+  .post p {
+    font-size: 15px;
+    margin: 20px 0;
+  }
+
+  .post h3{
+    font-size: 25px;
+  }
+
+  .diva {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: 500;
+    padding: 10px 0;
+  }
+
+
+
+}

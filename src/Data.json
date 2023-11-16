@@ -1,0 +1,28 @@
+{
+    "logo":"https://www.terriblytinytales.com/TTT%20-%20974%20x%20513.png",
+    
+    "User":{
+        "userImg":"https://pbs.twimg.com/profile_images/1148507476578275328/fsrvymGR_400x400.jpg",
+        "name":"Anuj Gosalia",
+        "description":"Co-founder & CEO at Terribly Tiny Tales",
+        "website":"http://www.instagram.com/anujgosalia",
+        "star":125,
+        "thumb":12,
+        "eye":"57.8K",
+        "heart":"26.0K",
+        "following":245,
+        "followers":6482
+    },
+
+    "images":{
+        "cover":"/assests/cover.jpeg",
+        "diamnond":"/assests/diamond.jpeg",
+        "heart":"/assests/heart.jpeg",
+        "eye":"/assests/eye.jpeg",
+        "thumb":"/assests/thumb.jpeg",
+        "greenTik":"/assests/greenTik.jpeg",
+        "owner":"/assests/owner.jpeg",
+        "star":"/assests/star.jpeg",
+        "logo":"/assests/logo.png"
+    }
+}
