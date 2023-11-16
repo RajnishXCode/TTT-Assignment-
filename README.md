@@ -15,7 +15,7 @@ Develop a frontend in Reactjs or Nextjs, which does the following:
 
 1. The solution is developed using Reactjs.
 2. The solution is responsive and can be viewed on different mobile types.
-3. The solution is deployed on Vercel and can be viewed at https://terribly-tiny-tales-assignment.herokuapp.com/
+3. The solution is deployed on Vercel and can be viewed at https://ttt-assignment-one.vercel.app/
 4. Data is fetched from a local JSON file.
 5. The solution is developed using functional components and hooks.
 6. The solution is developed using Font-Awesome icons.
@@ -35,6 +35,17 @@ Develop a frontend in Reactjs or Nextjs, which does the following:
 ## Components
 
 1. App.js - The main component which renders the All child components.
+
+    Consists of 3 child components:
+    1. Navbar
+    2. Profile
+    3. Posts
+
+    Also consists 2 elements:
+    1. Cover Image
+    2. Posts Container UI
+
+
 2. Navbar.jsx - The component which renders the Navbar.
 3. Profile.jsx - The component which renders the Profile.
 4. Posts.jsx - The component which renders the Posts.
